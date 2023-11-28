@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Input Page</title>
+        <link rel="stylesheet" href="/css/generic.css">
+        <link rel="favicon" href="/media/mm.ico">
+    </header>
+    <body>
+        <h1>Inputs below</h1>
+        <hr>
+        <input type="text" value="Please write words" id="scan"><br>
+        <input type="button" value="A hundred" onclick="alerting()">
+    </body>
+    <script>
+        function alerting() {
+            var words = document.getElementById("scan").value;
+            alert(words);
+        }
+    </script>
+</html> 
